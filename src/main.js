@@ -7,7 +7,7 @@ const ApiProyectos = require('./routes/portafolio');
 const ApiAcerade = require('./routes/acercade');
 
 const app = express();
-const port = process.env.port || 777;
+const port = process.env.port || 7770;
 
 app.use(cors({origin:'*'}));
 app.use(express.json());
